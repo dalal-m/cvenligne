@@ -1,0 +1,112 @@
+h1 {
+	font-family:'Open Sans Condensed', sans-serif;	
+	text-align: center;
+	padding: 10px;
+}
+
+body{
+	font-family: 'Hind', sans-serif;
+}
+
+
+h3{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.presentation{
+	text-align: center;
+}
+
+header{
+
+	background-color: #CCBEB4;
+	color: white;
+	text-align: center;
+}
+img{
+	border-radius: 50%;
+	margin: 20px;
+	padding: 5px;
+}
+nav ul li{
+	
+	display: inline;
+	margin-top: 150px;
+	color: black;
+	margin: 0px;
+
+}
+
+h1 p{
+	text-align: center;
+}
+footer{
+	background-color: #CCBEB4;
+	color: white;
+	text-decoration: none;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+
+.titre{
+	font-family: 'Poiret One', cursive;
+	color: #E66172;
+	text-align: center;
+}
+#formations{
+	text-align: center;
+}
+#experiences{
+	text-align: center;
+}
+#langues{
+	text-align: center;
+}
+#competences{
+	text-align: center;
+}
+.bordure{
+	border-top: 1px solid #E66172;
+	width: 70%;
+	margin: 5% auto;
+}
+.glyphicon{
+	color: #9CFFDC;
+}
+
+.footer {
+	text-align: center;
+	margin: auto;
+}
+
+.footer {
+	color: white;
+}
+
+.footer a {
+	color: black;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #E66172;
+    }
+.btn-primary {
+    background-color: #e66172;
+    border-color: black;
+    color: #fff;
+}
+.btn-primary:hover{
+	background-color: #CCBEB4;
+	border-color: black;
+}
