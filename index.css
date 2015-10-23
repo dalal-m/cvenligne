@@ -19,14 +19,14 @@ h3{
 header{
 
 	background-color: #CCBEB4;
+	background-size: 20%;
 	color: white;
 	text-align: center;
 }
 img{
 	border-radius: 50%;
-	margin: 20px;
-	padding: 5px;
-}
+	margin-top: 10px;
+	}
 nav ul li{
 	
 	display: inline;
@@ -73,6 +73,7 @@ a{
 }
 .glyphicon{
 	color: #9CFFDC;
+	top: 3px;
 }
 
 .footer {
@@ -109,4 +110,18 @@ a{
 .btn-primary:hover{
 	background-color: #CCBEB4;
 	border-color: black;
+}
+.hidden{
+	display: none;
+}
+span.glyphicon.glyphicon-copyright-mark{
+	padding: 20px;
+	color: white;
+}
+#competences{
+	margin-bottom: 5%;
+}
+
+.hiddenmessage{
+	display: none;
 }

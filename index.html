@@ -25,26 +25,25 @@
 <body>
 
 	<header>
-		<div class="container">
+		<div class="container-fluid">
 		  <div class="row">
 		    <div class="col-md-2">
 		      <img src="images/photoprofil.jpg"/>
 		    </div> <!-- end col-md-offsed-2 -->
 
 		    <div class="col-md-8">
-		     <h1>Menhouch Dalal</h1>
+		      <h1>Menhouch Dalal</h1>
 				<p>Chargée web Marketing - Snow Globe</p>
 				<p>Analytics-Adwords-Bing Ads</p>
-			</div> <!-- end col-md-10 -->
+			</div> <!-- end col-md-8 -->
 		  </div> <!-- end row -->	
 		</div> <!-- end container -->
 
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-8 col-md-offset-4">
+				<div class="col-md-8 col-md-offset-2">
 					<nav class="navbar navbar-default">
 					  			<div class="container-fluid">
-					    			
 					    			<!-- Brand and toggle get grouped for better mobile display -->
 					    			<div class="navbar-header">
 					      				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -131,7 +130,7 @@
 	<div class="footer">
 		<a href="lienblog" title="Blog" target="_blank">Blog</a>
 		<a href="https://fr.linkedin.com/pub/dalal-menhouch/58/1a/7a4"><img src="images/linkedin.png"></a>
-		<p><span class="glyphicon glyphicon-copyright-mark"></span>Copyright 2015 - Menhouch Dalal</p>
+		<p><span class="glyphicon glyphicon-copyright-mark"></span> Copyright 2015 - Menhouch Dalal</p>
 	</div>
 </footer>
 
@@ -141,10 +140,10 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+        <h4 class="modal-title" id="myModalLabel">Exprimez-vous !</h4>
       </div>
       <div class="modal-body">
-        	<form class="form-horizontal" role="form" method="post" action="index.php">
+        	<form class="form-horizontal" role="form" method="post" action="index.php" id="mailbox" action="#">
             <div class="form-group">
                 <label for="name" class="col-sm-2 control-label">Nom</label>
                 <div class="col-sm-10">
@@ -171,12 +170,16 @@
             </div>
             <div class="form-group">
                 <div class="col-sm-10 col-sm-offset-2">
-                    <input id="submit" name="submit" type="submit" value="Envoyer" class="btn btn-primary">
+                    <button id="submit" name="submit" type="submit"class="btn btn-primary">Envoyer</button>
                 </div>
             </div>
-            <div class="form-group">
-                <div class="col-sm-10 col-sm-offset-2">
-                    <! Will be used to display an alert to the user>
+            </form>
+            <div id="errormessage" class="hiddenmessage">
+            	<p>Oups, votre message n'a pas été envoyé !</p>
+            </div>
+            <div id="greatsuccess" class="hiddenmessage">
+            <p>Congrats! message envoyé !</p>
+            </div>
       </div>
     </div>
   </div>
@@ -184,9 +187,13 @@
 
 
 
+
+
+
 	<!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="global.js"></script>
 </body>
 
 
