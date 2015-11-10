@@ -51,7 +51,7 @@ a{
 
 .titre{
 	font-family: 'Poiret One', cursive;
-	color: #E66172;
+	color: #CF617C;
 	text-align: center;
 }
 #formations{
@@ -67,7 +67,7 @@ a{
 	text-align: center;
 }
 .bordure{
-	border-top: 1px solid #E66172;
+	border-top: 1px solid #9CFFDC;
 	width: 70%;
 	margin: 5% auto;
 }
@@ -87,6 +87,8 @@ a{
 
 .footer a {
 	color: black;
+	margin-left: 30px;
+	margin-bottom: 50px;
 }
 
 .navbar .navbar-nav {
@@ -100,10 +102,10 @@ a{
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: #E66172;
+    color: #CF617C;
     }
 .btn-primary {
-    background-color: #e66172;
+    background-color: #9CFFDC;
     border-color: black;
     color: #fff;
 }
